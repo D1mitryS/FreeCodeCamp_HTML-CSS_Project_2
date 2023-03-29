@@ -1,0 +1,134 @@
+/*RESET*/
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+input,
+img,
+figure,
+figcaption,
+blockquote,
+q,
+cite {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+body {
+  font-family: Tahoma;
+  background-color: #eeeeee;
+}
+
+/*CONTAINER*/
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*VISUALLY-HIDDEN*/
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+main {
+  overflow: hidden;
+}
+
+main section {
+  margin-bottom: 3rem;
+}
+
+/*MAIN .HEADER*/
+main .header {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+main .header h1 {
+  margin-bottom: 1rem;
+}
+
+/*SECTION .TRIBUTE-INFO*/
+.tribute-info figure {
+  margin-bottom: 3rem;
+}
+
+.tribute-info figure img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+}
+
+.tribute-info figure figcaption {
+  text-align: center;
+  font-size: .9rem;
+}
+
+.tribute-info h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tribute-info ul {
+  margin-bottom: 3rem;
+  font-size: .9rem;
+}
+
+.tribute-info ul li {
+  display: block;
+}
+
+.tribute-info ul li:not(li:last-of-type) {
+  margin-bottom: .5rem;
+}
+
+.tribute-info blockquote {
+  padding-left: 3rem;
+}
+
+.tribute-info blockquote q,
+.tribute-info blockquote cite {
+  display: block;
+  font-size: .9rem;
+}
+
+.tribute-info blockquote q {
+  margin-bottom: .5rem;
+}
+
+.tribute-info blockquote cite {
+  text-align: right;
+}
+
+/*SECTION .ADDITIONAL-INFO*/
+.additional-info p {
+  font-size: 1.17rem;
+  font-weight: 700; 
+}
